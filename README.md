@@ -15,7 +15,7 @@ The goals / steps of this project are the following:
 [image1]: ./output_images/Undistort.png "Undistorted"
 [image3]: ./output_images/test3.jpg "HLS"
 [image4]: ./output_images/perspective.jpg "Perspective"
-[image5]: ./examples/example.PNG "Fit Visual"
+[image5]: ./output_images/example.PNG "Fit Visual"
 [video1]: ./output_images/clip.mp4 "Video"
 
 
