@@ -66,8 +66,6 @@ Below is an example of a threshold binary image that is generated through my HLS
 
 Another setup task before lanes are actually detected is finding the perspective transform. Since objects further away from the current perspective provide distorted/skewed images, it is necessary to find a "bird's eyed view" of our scope in order to accurately define our outputs. In my perspective() function, I utilized the cv2.getPerspectiveTransform and cv2.warpPerspective functions to obtain this bird's eyed view. Since we know the camera is mounted in the center of the vehicle, we can use hard-coded values to get the generic range of where the lanes are going to be. After applying the warpPerpective() function, I was able to convert the image to the desired view. 
 
-Below are my before and after images:
-
 
 ![alt text][image4]
 
