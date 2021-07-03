@@ -80,12 +80,6 @@ Below is an example of the find_lane_pixels() and fit_polynomial() functions in 
 
 In addition, I implemented the fit_poly() and previous() functions to optimize the pipeline. Since the previously mentioned method of finding lane lanes is a computationaly slow process, it is faster to only use it when necessary. Therefore, the previous() function utilizes a history of lane lines with a defined margin = 100 to fit lines that are close to the fitted line averages.
 
-Below is an example of the previous() function which finds the polynomial fit within the defined margin(in green).
-
-
-![alt text][image5]
-
-
 
 ### Pipeline (video)
 
